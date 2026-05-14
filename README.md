@@ -81,3 +81,44 @@ porosity_data.csv (optional)
 ## How to run
 
 python main.py
+
+
+
+## 📂 Example input files
+
+The repository includes example datasets to test the pipeline.
+
+### 1. fracture_data.csv (mandatory)
+This file defines the fracture network.
+
+Format (column order matters):
+x, y, z, polyline_id
+
+Each row is a point belonging to a fracture polyline.
+All points with the same polyline_id belong to the same fracture.
+
+Each fracture is defined by at least 2 points.
+
+---
+
+### 2. vp_data.csv (optional)
+Contains seismic P-wave velocity data.
+
+Format:
+x, y, z, vp
+
+Used for seismic interpolation and Vp analysis.
+
+If not provided, seismic plotting will be skipped.
+
+---
+
+### 3. porosity_data.csv (optional)
+Contains matrix porosity values.
+
+Format:
+x, y, z, porosity
+
+Used to build spatial porosity fields.
+
+If not provided, a default constant porosity field (0.05) is used.
