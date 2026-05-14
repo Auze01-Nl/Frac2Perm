@@ -1,25 +1,6 @@
 # Frac2Perm
 Fracture network modeling and P21-based permeability and p-wave (vp) analysis in Python.
 
-## Project structure
-Frac2Perm/
-│
-├── main.py
-├── README.md
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── make_data_fracture.py
-│   ├── make_Topology_fractures.py
-│   ├── make_P21.py
-│   ├── plot_P21_all.py
-│   ├── plot_seismic_vp.py
-│
-├── fracture_data.csv
-├── vp_data.csv
-├── porosity_data.csv
-
-
 ### 🔧 Required Python libraries
 
 Before running the code, make sure the following packages are installed:
