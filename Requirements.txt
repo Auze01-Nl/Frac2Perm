@@ -1,0 +1,12 @@
+# ==============================
+# Frac2Perm dependencies
+# ==============================
+
+# Python Libraries
+numpy
+pandas
+matplotlib
+scipy
+shapely
+
+
