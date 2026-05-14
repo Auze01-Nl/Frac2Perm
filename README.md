@@ -24,7 +24,7 @@ It runs the full processing chain from raw fracture data to final physical and s
 
 1. Load input data
 
-Input file must be in the same folder than the main
+Input files must be in the same folder than the main
 
 fracture_data.csv (mandatory)
 - Must contain 4 columns in this order:
