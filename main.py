@@ -5,7 +5,7 @@
 # LOAD DATA
 # =====================================================
 import os
-os.chdir(r"C:\Users\Antoine\Desktop\Frac2PERM_py") # here put the path of the Frac2PERM_py folder
+os.chdir(r"C:\Users\username\Desktop\Frac2PERM_py") # here put the path of the Frac2PERM_py folder
 
 # =====================================================
 # INPUT FILES
